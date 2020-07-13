@@ -24,7 +24,6 @@
         <junit.version>5.6.2</junit.version>
         <logback.version>1.2.3</logback.version>
         <mockito.version>3.4.0</mockito.version>
-        <rest-assured.version>4.3.1</rest-assured.version>
     </properties>
 
     <dependencies>
@@ -108,13 +107,6 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
             <version>${mockito.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>${rest-assured.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
